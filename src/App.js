@@ -12,6 +12,9 @@ const App = () => {
 	const [favourites, setFavourites] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
 
+
+
+	
 	const getMovieRequest = async (searchValue) => {
 		const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=c8134a93`;
 
